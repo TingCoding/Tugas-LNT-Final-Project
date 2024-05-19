@@ -1,0 +1,76 @@
+* {
+    font-family: 'Poppins';
+}
+
+.product {
+    background-color: rgb(212, 246, 61);
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.product .design {
+    padding: 50px;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+.product .design a{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: white;
+    color: red;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.product h1 {
+    margin-left: 40px;
+    color: blue;
+}
+
+.product img {
+    width: 300px;
+    height: 300px;
+}
+
+.product .manShoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+.product .manShoes div {
+    background-color: rgb(25, 91, 205);
+    padding: 10px;
+    color: white;
+    /* display: flex; */
+}
+
+.product .manShoes div .tombol {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.product .manShoes div button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.product .womanShoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+}
+
+.product .womanShoes div {
+    background-color: rgb(25, 91, 205);
+    padding: 10px;
+    color: white;
+}

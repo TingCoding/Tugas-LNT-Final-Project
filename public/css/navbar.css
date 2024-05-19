@@ -1,0 +1,61 @@
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 10px solid rgb(25, 91, 205); */
+    /* background-color: rgb(240, 235, 235); */
+    background-color: rgb(212, 246, 61);
+    z-index: 99999; /* ketebalan */
+}
+
+.left {
+    margin-left: 80px;
+}
+
+.left img {
+    width: 120px;
+    height: 120px;
+}
+
+.right {
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.right a {
+    text-decoration: none;
+    margin: 30px;
+    font-family: 'poppins';
+    font-size: 20px;
+    color: rgb(22, 22, 168);
+}
+
+.right .login {
+    background-color: rgb(25, 91, 205);
+    color: white;
+    width: 90px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.right .login2 {
+    background-color: rgb(25, 91, 205);
+    color: white;
+    width: 90px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
